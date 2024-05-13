@@ -1,0 +1,393 @@
+
+#skills{
+    margin: auto;
+}
+#skills h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+#skills h1 span{
+    color: #777;
+    font-size: 20px;
+}
+#skills .content{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#skills .content .card-one{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 25px 40px;
+    box-shadow: 0px 0px 9px 0px #d7d7d7;
+    border-radius: 10px;
+}
+#skills .content .card-one h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #77777700;
+}
+#skills .content .card-one .card-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#skills .content .card-one .left-side{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+#skills .content .card-one .left-side a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin:10px 0;
+    text-align: left;    
+    position: relative;
+    padding: 10px;
+    
+}
+#skills .content .card-one .left-side a i{
+    font-size: 16px;
+    margin-right: 9px;
+}
+#skills .content .card-one .left-side a span{
+    text-decoration: none;
+    color: #777;
+    font-size: 11px;
+    
+}
+#skills .content .card-one .right-side{
+    display: flex;
+    flex-direction: column;}
+
+#skills .content .card-one .right-side a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin:10px 0;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+}
+#skills .content .card-one .right-side a i{
+    font-size: 16px;
+    margin-right: 9px;    
+}
+
+#skills .content .card-one .right-side a span{
+    text-decoration: none;
+    color: #777;
+    font-size: 11px;
+    position: absolute;
+    top: 16px;
+    left: 36px;
+    
+}
+#skills .content .card-two{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 25px 40px;
+    box-shadow: 0px 0px 9px 0px #d7d7d7;
+    border-radius: 10px;
+}
+#skills .content .card-two h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+#skills .content .card-two .card-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#skills .content .card-two .left-side{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+#skills .content .card-two .left-side a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin:10px 0;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+}
+#skills .content .card-two .left-side a i{
+    font-size: 16px;
+    margin-right: 9px;
+}
+#skills .content .card-two .left-side a span{
+    text-decoration: none;
+    color: #777;
+    font-size: 11px;
+    position: absolute;
+    top: 16px;
+    left: 36px;
+}
+#skills .content .card-two .right-side{
+    display: flex;
+    flex-direction: column;
+}
+#skills .content .card-two .right-side a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin:10px 0;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+}
+#skills .content .card-two .right-side a i{
+    font-size: 16px;
+    margin-right: 9px;
+}
+#skills .content .card-two .right-side a span{
+    text-decoration: none;
+    color: #777;
+    font-size: 11px;
+    position: absolute;
+    top: 16px;
+    left: 36px;
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* portrait tablets and large phones, 600px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 600px) {
+    #skills .container{
+        width: 600px ;
+        margin: auto;
+    }
+
+    #skills .content .card-two h2,
+    #skills .content .card-one h2 {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    #skills .content .card-two .left-side a,
+    #skills .content .card-one .left-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px 0;
+        display: flex;
+    }    
+    
+    #skills .content .card-two .right-side a,
+    #skills .content .card-one .right-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px;
+        display: flex;
+    }
+
+    #skills .content .card-two .left-side a span,
+    #skills .content .card-one .left-side a span 
+    
+    {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 25px;
+    }
+
+    #skills .content .card-two .right-side a span,
+    #skills .content .card-one .right-side a span {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 35px;
+    }
+
+    #skills .content .card-one,
+    #skills .content .card-two{
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 25px 40px;
+        box-shadow: 0px 0px 9px 0px #d7d7d7;
+        border-radius: 10px;
+        height: 200px;
+    }
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 768px),(max-width: 991px) {
+    #skills .container{
+        width: 768px ;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Large devices (laptops/desktops, 992px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 992px) {
+    #skills .container{
+        width: 992px ;
+        margin: auto;
+    }
+
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/*     large laptops and desktops, 1200px and up    */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+    #skills .container{
+        width: 1200px ;
+        margin: auto;
+    }
+}  
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media screen and (max-width: 600px) {
+    #skills .container{
+        width: 350px ;
+        margin: auto;
+    }
+    #skills .content .card-two h2,
+    #skills .content .card-one h2 {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    #skills .content .card-two .left-side a,
+    #skills .content .card-one .left-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px 0;
+        display: flex;
+    }    
+    
+    #skills .content .card-two .right-side a,
+    #skills .content .card-one .right-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px;
+        display: flex;
+    }
+
+    #skills .content .card-two .left-side a span,
+    #skills .content .card-one .left-side a span 
+    
+    {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 25px;
+    }
+
+    #skills .content .card-two .right-side a span,
+    #skills .content .card-one .right-side a span {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 35px;
+    }
+
+    #skills .content .card-one,
+    #skills .content .card-two{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 25px 40px;
+        box-shadow: 0px 0px 9px 0px #d7d7d7;
+        border-radius: 10px;
+        height: 200px;
+    }
+    #skills .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+}

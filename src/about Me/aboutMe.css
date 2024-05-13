@@ -1,0 +1,441 @@
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------- main css styking ----------------- */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+#about-me {
+    margin: 250px auto;
+}
+#about-me h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+#about-me h1 span {
+    font-size: 18px;
+    color: #777;
+
+
+}
+#about-me .content{
+    display: flex;
+    justify-content: space-around;
+}
+#about-me .content .box-one{
+    width: 40%;
+    background: url("./LINKDEN\ PHOTO.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+#about-me .content .box-two{
+    width: 40%;
+}
+#about-me .content .box-two .side-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#about-me .content .box-two .side-one .card{
+    width: 18%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 9px 0px #e7e7e7;
+    border-radius: 10px;
+    border: solid #e9e9e9 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+#about-me .content .box-two .side-one .card i{
+    font-size: 15px;
+    background-color: white;
+
+}
+#about-me .content .box-two .side-one .card a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: black;
+    font-weight: 400;
+    background-color: white;
+
+
+}
+#about-me .content .box-two .side-one .card h2{
+    font-size: 12px;
+    color: #777;
+    background-color: white;
+
+}
+
+#about-me .content .box-two .side-two p {
+    color: #777;
+    margin: 40px  0;
+}
+#about-me .content .box-two .side-three {
+    background-color: black;
+    width: fit-content;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 25px;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+
+#about-me .content .box-two .side-three a{
+    text-decoration: none;   
+}
+#about-me .content .box-two .side-three i{
+    padding-left: 15px ;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* portrait tablets and large phones, 600px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 600px) {
+    #about-me .container{
+        margin: auto;
+        width: 600px;
+    }
+
+
+    #about-me .content .box-two .side-one .card{
+        width: 25%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 10px 10px;
+        box-shadow: 0px 0px 9px 0px #e7e7e7;
+        border-radius: 10px;
+        border: solid #e9e9e9 1px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    #about-me .content .box-two .side-one .card i{
+        font-size: 10px;
+        background-color: white;
+    
+    }
+    #about-me .content .box-two .side-one .card a{
+        text-decoration: none;
+        padding-top: 6px;
+        padding-bottom: 3px;
+        color: black;
+        font-weight: 400;
+        background-color: white;
+        font-size: 10px;
+    
+    
+    }
+    #about-me .content .box-two .side-one .card h2{
+        font-size: 8px;
+        color: #777;
+        background-color: white;
+    
+    }
+
+    #about-me .content .box-two .side-two p {
+        color: #777;
+        margin: 20px  0;
+        font-size: 10px;
+
+    }
+
+
+    #about-me .content .box-one{
+        width: 45%;
+        background: url("./LINKDEN\ PHOTO.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+    }
+
+
+    #about-me .content .box-two{
+        width: 45%;
+    }
+    #about-me .content .box-two .side-three {
+        background-color: black;
+        width: fit-content;
+        border-radius: 6px;
+        color: white;
+        padding: 13px 20px;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 768px) {
+
+    #about-me .container{
+        margin: auto;
+        width: 768px;
+    }
+
+
+    #about-me .content .box-two .side-one .card{
+        width: 25%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 10px 10px;
+        box-shadow: 0px 0px 9px 0px #e7e7e7;
+        border-radius: 10px;
+        border: solid #e9e9e9 1px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    #about-me .content .box-two .side-one .card i{
+        font-size: 12px;
+        background-color: white;
+    
+    }
+    #about-me .content .box-two .side-one .card a{
+        text-decoration: none;
+        padding-top: 8px;
+        padding-bottom: 3px;
+        color: black;
+        font-weight: 400;
+        background-color: white;
+        font-size: 14px;
+    
+    
+    }
+    #about-me .content .box-two .side-one .card h2{
+        font-size: 10px;
+        color: #777;
+        background-color: white;
+    
+    }
+
+    #about-me .content .box-two .side-two p {
+        color: #777;
+        margin: 30px  0;
+        font-size: 12px;
+    }
+
+    
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Large devices (laptops/desktops, 992px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 992px) {
+
+    #about-me .container{
+        margin: auto;
+        width: 992px;
+    }
+
+
+    #about-me .content .box-two .side-one .card{
+        width: 25%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 10px 10px;
+        box-shadow: 0px 0px 9px 0px #e7e7e7;
+        border-radius: 10px;
+        border: solid #e9e9e9 1px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    #about-me .content .box-two .side-one .card i{
+        font-size: 12px;
+        background-color: white;
+    
+    }
+    #about-me .content .box-two .side-one .card a{
+        text-decoration: none;
+        padding-top: 8px;
+        padding-bottom: 3px;
+        color: black;
+        font-weight: 400;
+        background-color: white;
+        font-size: 14px;
+    
+    
+    }
+    #about-me .content .box-two .side-one .card h2{
+        font-size: 10px;
+        color: #777;
+        background-color: white;
+    
+    }
+
+    #about-me .content .box-two .side-two p {
+        color: #777;
+        margin: 30px  0;
+        font-size: 12px;
+    }
+    #about-me .content .box-one{
+        width: 40%;
+        background: url("./LINKDEN\ PHOTO.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+    }
+
+
+    #about-me .content .box-two{
+        width: 40%;
+    }
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/*     large laptops and desktops, 1200px and up    */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+    #about-me .container{
+        margin: auto;
+        width: 1200px;
+    }
+    
+    #about-me .content .box-one{
+        width: 40%;
+        background: url("./LINKDEN\ PHOTO.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+    }
+
+
+
+
+    #about-me .content .box-two{
+        width: 40%;
+    }
+    #about-me .content .box-two .side-three {
+        background-color: black;
+        width: fit-content;
+        border-radius: 6px;
+        color: white;
+        padding: 13px 20px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+}  
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media screen and (max-width: 600px) {
+    #about-me .container{
+        margin: auto;
+        width: 350px;
+    }
+
+    #about-me .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #about-me .content .box-one{
+        width: 100%;
+        background-color: red;
+        z-index: 100;
+    }
+    #about-me .content .box-two {
+        width: 100%;
+    }
+
+    #about-me .content .box-two .side-two p {
+        color: #777;
+        text-align: center;
+        font-size: 15px;
+        padding: 0;
+        margin: 25px 0;
+    }
+
+    #about-me .content .box-two .side-one .card a {
+        text-decoration: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: black;
+        font-weight: 500;
+        background-color: white;
+        font-size: 12px;
+    }
+
+    #about-me .content .box-two .side-one .card h2 {
+        font-size: 8px;
+        color: #777;
+        background-color: white;
+    }
+    #about-me .content .box-two .side-one .card {
+        width: 18%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 15px 20px;
+        box-shadow: 0px 0px 9px 0px #e7e7e7;
+        border-radius: 10px;
+        border: solid #e9e9e9 1px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #about-me .content .box-two .side-three {
+        background-color: black;
+        width: -moz-fit-content;
+        width: fit-content;
+        border-radius: 8px;
+        color: white;
+        padding: 15px 25px;
+        font-size: 12px;
+        margin: auto;
+        text-decoration: none;
+    }
+}

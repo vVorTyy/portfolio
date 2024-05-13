@@ -1,0 +1,570 @@
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------- main css styking ----------------- */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+
+
+
+
+/* header .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 20px 20px 0px #00000007;
+    z-index: 10;
+    text-decoration: none;
+    font-weight: 500;
+    color: #363636;
+    background-color: rgb(255, 255, 255);
+}
+header nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #363636;
+    background-color: rgb(255, 255, 255);
+    
+}
+header nav ul{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+
+}
+header nav ul a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}*/
+
+
+
+
+
+#header{
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    top: 0;
+}
+
+#header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+#header .navbar h1{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+#header .navbar .links a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+
+
+#main-header{
+    margin: auto;
+    margin-top: 200px;
+}
+#main-header .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#main-header .content .box-one{
+    display: flex;
+    flex-direction: column;
+}
+#main-header .content .box-one a{
+    text-decoration: none;
+    margin: 20px;
+    color: #444444;
+}
+#main-header .content .box-two{
+    text-decoration: none;
+}
+#main-header .content .box-two h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+#main-header .content .box-two h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #777;
+}
+#main-header .content .box-two h2 span{
+
+    letter-spacing: -3px;
+    margin-right: 10px;
+    color: #777;
+}
+#main-header .content .box-two p{
+    font-size: 20px;
+    font-weight: 300;
+    width: 600px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    color: #777;
+}
+#main-header .content .box-two a{
+    text-decoration: none;
+    background-color: black;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+}
+#main-header .content .box-two a i{
+    background-color: black;
+    color: white;
+}
+#main-header .content .box-two a span{
+    text-decoration: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    font-weight: 100;
+}
+#main-header .content .box-three{
+    background: url(".//LINKDEN\ PHOTO.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+    order: 1;
+    justify-content: center;
+    width: 300px ;
+    height: 300px;
+    animation: profile__animate 8s ease-in-out infinite;
+}
+.hand {
+    color: rgb(230, 230, 0);
+    rotate: 10deg;
+    animation: hand 1.4s ease-in-out infinite;
+}
+.scroll-down{
+    margin-left: 200px;
+    margin-top: 190px;
+    font-weight: 400;
+} 
+.scroll-down i{
+    font-size: 11px;
+    margin: 0 10px;
+    animation: arrow 1s ease-in-out infinite ;
+}
+#main-header .s-s-content{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    display: none;
+} 
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* portrait tablets and large phones, 600px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 600px) {
+
+    #main-header .container{
+        width: 600px;
+        margin: auto;
+
+    }
+
+/*     
+    #header .container{
+        width: 600px;
+        margin: auto;
+    } */
+
+
+    #main-header .content .box-one a {
+        text-decoration: none;
+        margin: 10px;
+        color: #444444;
+        font-size: 12px;
+    }
+    #main-header .content .box-two h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #main-header .content .box-two h2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #777;
+        margin: 10px 0;
+    }
+    #main-header .content .box-two p {
+        font-size: 8px;
+        font-weight: 300;
+        width: 250px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        color: #777;
+    }
+    #main-header .content .box-three {
+        background: url(".//LINKDEN\ PHOTO.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+        order: 1;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        animation: profile__animate 8s ease-in-out infinite;
+    }
+    #main-header .content .box-two a {
+        text-decoration: none;
+        background-color: black;
+        padding: 10px 12px;
+        border-radius: 5px;
+        color: white;
+        font-size: 10px;
+    }
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 768px) {
+    #main-header .container{
+        width: 768px;
+        margin: auto;
+
+    }
+
+/* 
+    #header .container{
+        width: 768px;
+        margin: auto;
+    } */
+
+    #main-header .content .box-one a {
+        text-decoration: none;
+        margin: 10px;
+        color: #444444;
+        font-size: 15px;
+    }
+
+
+    #main-header .content .box-two h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+
+    #main-header .content .box-two h2 {
+        font-size: 15px;
+        font-weight: 400;
+        color: #777;
+        margin: 20px 0;
+    }
+
+
+    #main-header .content .box-two p {
+        font-size: 15px;
+        font-weight: 300;
+        width: 420px;
+        margin-bottom: 70px;
+        margin-top: 10px;
+        color: #777;
+    }
+
+
+    #main-header .content .box-two a {
+        text-decoration: none;
+        background-color: black;
+        padding: 10px 12px;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+    }
+
+
+    #main-header .content .box-three {
+        background: url(".//LINKDEN\ PHOTO.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+        order: 1;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        animation: profile__animate 8s ease-in-out infinite;
+    }
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Large devices (laptops/desktops, 992px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 992px) {
+    /* #main-header .container{
+        width: 992px;
+        margin: auto;
+    }
+    #header .container{
+        width: 992px;
+        margin: auto;
+    } */
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/*     large laptops and desktops, 1200px and up    */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+    /* #main-header .container{
+        width: 1200px;
+        margin: auto;
+    }
+
+    header .container{
+        width: 1200px;
+        margin: auto;
+
+    } */
+}  
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media screen and (max-width: 600px) {
+/* 
+
+    #header{
+        position: fixed;
+        width: 100%;
+        top: initial;
+        bottom: 0;
+    }
+
+    #header .container{
+        width: 350px;
+        margin: auto; 
+    }
+
+    #header .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+    
+    #header .navbar h1{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    
+    #header .navbar .links{
+
+    }
+    
+    #header .navbar .links a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        margin-left: 10px;
+
+    } */
+
+
+
+
+
+
+
+
+
+
+
+    #main-header{
+        background-color: rgba(43, 43, 43, 0);
+    }     
+    #main-header .container{
+        width: 350px;
+        margin: auto;
+        align-items: center;
+    } 
+
+    #main-header{
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    
+    #main-header .s-s-content .box-one{
+        display: flex;
+        align-items: center;
+    }  
+    #main-header .s-s-content{
+
+        display: block;
+    }
+    #main-header .s-s-content .box-one .side-one{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px ;
+    }
+    #main-header .s-s-content .box-one a{
+        text-decoration: none;
+        margin: 12px 0;
+        color: #444444;
+        font-size: 20px;
+    }
+    #main-header .s-s-content .box-two{
+        text-decoration: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #main-header .s-s-content .box-two h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #main-header .s-s-content .box-two h2{
+        font-size: 15px;
+        font-weight: 400;
+        color: #595959;
+    }
+    #main-header .s-s-content .box-two h2 span{
+    
+        letter-spacing: -3px;
+        margin-right: 10px;
+        color: #777;
+    }
+    #main-header .s-s-content .box-two p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 70px;
+        margin-top: 30px;
+        color: #777;
+    }
+    #main-header .s-s-content .box-two a{
+        text-decoration: none;
+        background-color: black;
+        padding: 15px 25px;
+        border-radius: 10px;
+        color: white;
+    }
+    #main-header .s-s-content .box-two a i{
+        background-color: black;
+        color: white;
+    }
+    #main-header .s-s-content .box-two a span{
+        text-decoration: none;
+        background-color: black;
+        padding: 7px;
+        color: white;
+        font-weight: 100;
+    }
+    #main-header .s-s-content .side-two{
+        background: url(".//LINKDEN\ PHOTO.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+        order: 1;
+        justify-content: center;
+        width: 250px ;
+        height: 250px;
+        animation: profile__animate 8s ease-in-out infinite;
+        margin-left: 20px;
+    }
+    .scroll-down{
+        font-weight: 400;
+        margin-top: 50px;
+        display: none;
+    } 
+    .scroll-down i{
+        font-size: 11px;
+        animation: arrow 1s ease-in-out infinite ;
+    }
+    #main-header .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        display: none;
+    }
+
+
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------- Animations ----------------- */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@keyframes profile__animate {
+    0% { 
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+@keyframes hand {
+    0% { 
+        rotate: 10deg;
+    }
+    50% {
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 10deg;
+    }
+}
+@keyframes arrow{
+    0% { 
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
