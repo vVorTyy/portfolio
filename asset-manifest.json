@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3e42611f.css",
+    "main.js": "/portfolio/static/js/main.cbf8d277.js",
+    "static/media/LINKDEN PHOTO.png": "/portfolio/static/media/LINKDEN PHOTO.d375dfa67634df0c3033.png",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.3e42611f.css.map": "/portfolio/static/css/main.3e42611f.css.map",
+    "main.cbf8d277.js.map": "/portfolio/static/js/main.cbf8d277.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e42611f.css",
+    "static/js/main.cbf8d277.js"
+  ]
+}
