@@ -150,7 +150,6 @@ header nav ul a {
     font-weight: 100;
 }
 #main-header .content .box-three{
-    background: url(".//LINKDEN\ PHOTO.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -229,7 +228,7 @@ header nav ul a {
         color: #777;
     }
     #main-header .content .box-three {
-        background: url(".//LINKDEN\ PHOTO.png");
+        background: url("./LINKDEN\ PHOTO.JPEG");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -239,6 +238,8 @@ header nav ul a {
         width: 200px;
         height: 200px;
         animation: profile__animate 8s ease-in-out infinite;
+        filter: grayscale(100%);
+
     }
     #main-header .content .box-two a {
         text-decoration: none;
@@ -312,7 +313,6 @@ header nav ul a {
 
 
     #main-header .content .box-three {
-        background: url(".//LINKDEN\ PHOTO.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -497,7 +497,6 @@ header nav ul a {
         font-weight: 100;
     }
     #main-header .s-s-content .side-two{
-        background: url(".//LINKDEN\ PHOTO.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

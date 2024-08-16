@@ -1,0 +1,420 @@
+
+#projects{
+    margin: auto;
+}
+#projects h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+#projects h1 span{
+    color: #777;
+    font-size: 20px;
+}
+
+#projects .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3rem;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+#projects .content .card{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 0px 9px 0px #d7d7d7;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px 10px;
+    position: relative;
+    
+}
+#projects .content .card h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #77777700;
+}
+
+#projects .content .card img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+#projects .content .card img{
+    width: 100%;
+    border-radius: 6px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+#projects .content .card img:hover{
+    width: 100%;
+    border-radius: 6px;
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+
+#projects .content .card .card-content{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#projects .content .card .card-content p{
+    font-size: 10px;
+    text-align: left;
+
+}
+
+.services__button{
+    color: #777;
+    font-size: 6px;
+    display: inline-flex;
+    column-gap: 0.25rem;
+    cursor: pointer;
+    width: 20%;
+    position: absolute;
+    right:2px;
+    bottom: 10px;
+
+}
+
+
+.services__button-icon{
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.services__button:hover .services__button-icon{
+    transform: translate(00.25rem);
+}
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* portrait tablets and large phones, 600px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 600px) {
+    #projects .container{
+        width: 600px ;
+        margin: auto;
+    }
+
+    #projects .content .card h2 {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    #projects .content .card .left-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px 0;
+        display: flex;
+    }    
+    
+    #projects .content .card .right-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px;
+        display: flex;
+    }
+
+    #projects .content .card .left-side a span 
+    
+    {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 25px;
+    }
+
+    #projects .content .card .right-side a span {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 35px;
+    }
+
+    #projects .content .card
+    {
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 25px 40px;
+        box-shadow: 0px 0px 9px 0px #d7d7d7;
+        border-radius: 10px;
+        height: 200px;
+    }
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 768px),(max-width: 991px) {
+    #projects .container{
+        width: 768px ;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Large devices (laptops/desktops, 992px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 992px) {
+    #projects .container{
+        width: 992px ;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/*     large laptops and desktops, 1200px and up    */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+    #projects .container{
+        width: 1200px ;
+        margin: auto;
+    }
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media screen and (max-width: 600px) {
+    #projects .container{
+        width: 350px ;
+        margin: auto;
+    }
+    #projects .content .card h2 {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    #projects .content .card .left-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px 0;
+        display: flex;
+    }    
+    
+    #projects .content .card .right-side a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        margin: 7px 0;
+        text-align: left;
+        position: relative;
+        padding: 12px;
+        display: flex;
+    }
+
+    #projects .content .card .left-side a span 
+    
+    {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 25px;
+    }
+
+    #projects .content .card .right-side a span {
+        text-decoration: none;
+        color: #777;
+        font-size: 8px;
+        position: absolute;
+        top: 16px;
+        left: 35px;
+    }
+
+    #projects .content .card{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 25px 40px;
+        box-shadow: 0px 0px 9px 0px #d7d7d7;
+        border-radius: 10px;
+        height: 200px;
+    }
+    #projects .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+
+
+/* 
+
+#projects{
+    margin: auto;
+}
+#projects h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+#projects h1 span{
+    color: #777;
+    font-size: 20px;
+}
+#projects .content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: red;
+}
+
+#projects .content .card{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 25px 40px;
+    box-shadow: 0px 0px 9px 0px #d7d7d7;
+    border-radius: 10px;
+    background-color: red;
+}
+#projects .content .card h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #77777700;
+}
+
+#projects .content .card img{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #77777700;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+#projects .content .card .card-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#projects .content .card .left-side{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+#projects .content .card .left-side a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin:10px 0;
+    text-align: left;    
+    position: relative;
+    padding: 10px;
+    
+}
+#projects .content .card .left-side a i{
+    font-size: 16px;
+    margin-right: 9px;
+}
+#skiprojectslls .content .card .left-side a span{
+    text-decoration: none;
+    color: #777;
+    font-size: 11px;
+    
+}
+#projects .content .card .right-side{
+    display: flex;
+    flex-direction: column;}
+
+#projects .content .card .right-side a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin:10px 0;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+}
+#projects .content .card .right-side a i{
+    font-size: 16px;
+    margin-right: 9px;    
+}
+
+#projects .content .card .right-side a span{
+    text-decoration: none;
+    color: #777;
+    font-size: 11px;
+    position: absolute;
+    top: 16px;
+    left: 36px;
+    
+} */

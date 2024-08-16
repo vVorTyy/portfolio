@@ -8,10 +8,10 @@ import Skills from './Skills/Skills';
 import Services from './Services/Services';
 import Qualification from './Qualification/Qualification';
 import App from './App.js';
-
-
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Projects from './My-projects/Projects.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<div>
   <App/>
@@ -21,5 +21,6 @@ root.render(<div>
   <Services/>
   <Qualification/>
   <Contact/>
+  <Projects/>
   <Footer/>
 </div>);
