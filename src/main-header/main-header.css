@@ -332,14 +332,14 @@ header nav ul a {
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 @media only screen and (min-width: 992px) {
-    /* #main-header .container{
+    #main-header .container{
         width: 992px;
         margin: auto;
     }
     #header .container{
         width: 992px;
         margin: auto;
-    } */
+    }
 
 }
 /* ------------------------------------------------ */
@@ -350,7 +350,7 @@ header nav ul a {
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 @media only screen and (min-width: 1200px) {
-    /* #main-header .container{
+    #main-header .container{
         width: 1200px;
         margin: auto;
     }
@@ -359,7 +359,7 @@ header nav ul a {
         width: 1200px;
         margin: auto;
 
-    } */
+    } 
 }  
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
@@ -369,7 +369,7 @@ header nav ul a {
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 @media screen and (max-width: 600px) {
-/* 
+
 
     #header{
         position: fixed;
@@ -405,7 +405,7 @@ header nav ul a {
         font-size: 12px;
         margin-left: 10px;
 
-    } */
+    }
 
 
 
@@ -497,6 +497,7 @@ header nav ul a {
         font-weight: 100;
     }
     #main-header .s-s-content .side-two{
+        background-image: url("./LINKDEN\ PHOTO.JPEG");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -507,6 +508,7 @@ header nav ul a {
         height: 250px;
         animation: profile__animate 8s ease-in-out infinite;
         margin-left: 20px;
+        filter: grayscale(100%);
     }
     .scroll-down{
         font-weight: 400;

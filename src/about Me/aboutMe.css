@@ -30,12 +30,22 @@
     background-size: cover;
     border-radius: 15px;
     filter: grayscale(100%);
-    height: 300px;
     transform: scaleX(-1);
+
 }
 
 #about-me .box-two {
     width: 40%;
+}
+
+#about-me .box-two .side-one{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+#about-me .box-two .side-one .card a{
+    text-decoration: none;
 }
 
 #about-me .card {
@@ -50,7 +60,9 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
+
 
 #about-me .card h2 {
     font-size: 12px;
@@ -58,7 +70,7 @@
 }
 
 #about-me .card i, #about-me .card a {
-    font-size: 15px;
+    font-size: 50px;
     color: black;
 }
 
@@ -75,11 +87,11 @@
     border-radius: 8px;
     text-decoration: none;
     width: fit-content;
+
 }
 
-#about-me .side-three a {
-    text-decoration: none;
-}
+
+
 
 @media (min-width: 600px) {
     #about-me .container {
@@ -140,7 +152,7 @@
 
 @media (min-width: 1200px) {
     #about-me .container {
-        width: 1200px;
+        width: 800px;
     }
 
     #about-me .side-three {

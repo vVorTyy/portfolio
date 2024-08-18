@@ -17,9 +17,9 @@ export default function MainHeader() {
                 <a href="https://web.telegram.org" target="_blank">Say Hello <span><i className="fa-regular fa-paper-plane"></i></span></a>
             </div>
                 <div className="box-three"></div>
-
-            
         </div>
+
+
 
         <div className="s-s-content container">
         <div className="box-one">
