@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3e42611f.css",
-    "main.js": "/portfolio/static/js/main.cbf8d277.js",
-    "static/media/LINKDEN PHOTO.png": "/portfolio/static/media/LINKDEN PHOTO.d375dfa67634df0c3033.png",
+    "main.css": "/portfolio/static/css/main.9453cd2f.css",
+    "main.js": "/portfolio/static/js/main.9595de1f.js",
+    "static/media/LINKDEN PHOTO.JPEG": "/portfolio/static/media/LINKDEN PHOTO.105c5e01fb646c1e81a7.JPEG",
+    "static/media/two.png": "/portfolio/static/media/two.a5dcb37b4fc221823064.png",
+    "static/media/four.png": "/portfolio/static/media/four.2006b787ed63e9d69420.png",
+    "static/media/one.png": "/portfolio/static/media/one.81997ad877787ba40d16.png",
+    "static/media/three.png": "/portfolio/static/media/three.c7de42c5451a86cf947b.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
@@ -12,11 +16,11 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/portfolio/index.html",
-    "main.3e42611f.css.map": "/portfolio/static/css/main.3e42611f.css.map",
-    "main.cbf8d277.js.map": "/portfolio/static/js/main.cbf8d277.js.map"
+    "main.9453cd2f.css.map": "/portfolio/static/css/main.9453cd2f.css.map",
+    "main.9595de1f.js.map": "/portfolio/static/js/main.9595de1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e42611f.css",
-    "static/js/main.cbf8d277.js"
+    "static/css/main.9453cd2f.css",
+    "static/js/main.9595de1f.js"
   ]
 }
