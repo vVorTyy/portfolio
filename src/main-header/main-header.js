@@ -10,9 +10,9 @@ export default function MainHeader(props) {
     <div id="main-header">
         <div ref={props.x} className="content container">
             <div className="box-one">
-                <a href="https://www.instagram.com/" target="_blank"><i className="uil uil-instagram"></i></a>
-                <a href="https://www.dribble.com/" target="_blank"><i className="uil uil-dribbble"></i></a>
-                <a href="https://www.github.com/" target="_blank"><i className="uil uil-github-alt"></i></a>
+                <a href="https://www.instagram.com/tawajjah_/" target="_blank"><i className="uil uil-instagram"></i></a>
+                <a href="https://dribbble.com/AbdualrhmanAb/about?utm_source=Clipboard_%22clipboard_about%22&utm_campaign=%22AbdualrhmanAb%22&utm_content=%22About%20AbdualrhmanAb%22&utm_medium=Social_Share" target="_blank"><i className="uil uil-dribbble"></i></a>
+                <a href="https://github.com/vVorTyy" target="_blank"><i className="uil uil-github-alt"></i></a>
             </div>
             <div className="box-two">
                 <h1>Abdualrhman Abdali<i className="hand fa-solid fa-hand"></i> </h1>
@@ -28,9 +28,9 @@ export default function MainHeader(props) {
         <div className="s-s-content container">
         <div className="box-one">
             <div className="side-one">
-            <a href="" target="_blank"><i className="uil uil-instagram"></i></a>
-                <a href="" target="_blank"><i className="uil uil-dribbble"></i></a>
-                <a href="" target="_blank"><i className="uil uil-github-alt"></i></a>
+            <a href="https://www.instagram.com/tawajjah_/" target="_blank"><i className="uil uil-instagram"></i></a>
+                <a href="https://dribbble.com/AbdualrhmanAb/about?utm_source=Clipboard_%22clipboard_about%22&utm_campaign=%22AbdualrhmanAb%22&utm_content=%22About%20AbdualrhmanAb%22&utm_medium=Social_Share" target="_blank"><i className="uil uil-dribbble"></i></a>
+                <a href="https://github.com/vVorTyy" target="_blank"><i className="uil uil-github-alt"></i></a>
             </div>
             <div className="side-two"></div>
           </div>

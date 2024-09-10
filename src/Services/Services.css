@@ -355,12 +355,18 @@
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 @media screen and (max-width: 600px) {
-    #services .container{
+    #services .container {
         margin: auto;
-        width: 100% ;
+        width: 100%;
+        gap: 2rem;
     }
     .services__content {
         width: 235px;
+    }
+    .services__modal-description{
+        font-size: 15px;
+        padding: 0px 0px ;
+        margin-bottom: 20px;
     }
 }
 

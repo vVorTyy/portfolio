@@ -16,7 +16,7 @@ export default function Services(props) {
     return (
       <section ref={props.x} className="services section" id="services">
         <h2 className="section__title">Services</h2>
-        <h4 className="section__subtitle">What i offer</h4>
+        <h4 className="section__subtitle">What I offer</h4>
 
         <div className="services__container container">
 

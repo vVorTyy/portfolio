@@ -402,4 +402,28 @@
     #skills .content .card-one, #skills .content .card-two {
         width: 60%;
     }
+    #skills .content .card-two .right-side a, 
+    #skills .content .card-one .right-side a {
+        font-size: 10px;
+        padding: 12px;
+
+    }
+    #skills .content .card-two .left-side a, 
+    #skills .content .card-one .left-side a {
+        font-size: 10px;
+        padding: 12px;
+
+    }
+    #skills .content .card-two .left-side a span, 
+    #skills .content .card-one .left-side a span {
+        font-size: 6px;
+        top: 12px;
+        left: 37px;
+    }
+    #skills .content .card-two .right-side a span, 
+    #skills .content .card-one .right-side a span {
+        font-size: 6px;
+        top: 12px;
+        left: 37px;
+    }
 }

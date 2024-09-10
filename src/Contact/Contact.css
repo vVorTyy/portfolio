@@ -280,6 +280,7 @@
         column-gap: 6rem;
         padding-bottom: 3rem;
         margin: auto;
+        
     }
 
     .contact__content{
@@ -287,6 +288,11 @@
     }
     .contact__form {
         width: 93%;
+    }
+    .contact__info{
+        display: grid;
+        row-gap: 1rem;
+        margin-bottom: 100px;
     }
 }
 

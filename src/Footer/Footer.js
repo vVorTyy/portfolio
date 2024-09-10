@@ -25,7 +25,7 @@ export default function Footer(props) {
         </ul>
 
         <div className='footer__social'>
-            <a href="https://www.github.com/" target='_blank' className='footer__social-link'><i className="fa-brands fa-github"></i></a>
+            <a href="https://github.com/vVorTyy" target='_blank' className='footer__social-link'><i className="fa-brands fa-github"></i></a>
             <a href="https://twitter.com/?lang=en" target='_blank' className='footer__social-link' ><i className="fa-brands fa-twitter"></i></a>
             <a href="https://www.linkedin.com/in/abdualrhman-alabdali-11099b226/" target='_blank' className='footer__social-link'><i className="fa-brands fa-linkedin"></i></a>
         </div>
