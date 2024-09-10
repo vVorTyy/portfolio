@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.50dec842.css",
-    "main.js": "/portfolio/static/js/main.021efc31.js",
+    "main.css": "/portfolio/static/css/main.79ecbddc.css",
+    "main.js": "/portfolio/static/js/main.2d7d9392.js",
     "static/media/LINKDEN PHOTO.JPEG": "/portfolio/static/media/LINKDEN PHOTO.105c5e01fb646c1e81a7.JPEG",
     "static/media/two.png": "/portfolio/static/media/two.a5dcb37b4fc221823064.png",
     "static/media/one.png": "/portfolio/static/media/one.81997ad877787ba40d16.png",
@@ -16,11 +16,11 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/portfolio/index.html",
-    "main.50dec842.css.map": "/portfolio/static/css/main.50dec842.css.map",
-    "main.021efc31.js.map": "/portfolio/static/js/main.021efc31.js.map"
+    "main.79ecbddc.css.map": "/portfolio/static/css/main.79ecbddc.css.map",
+    "main.2d7d9392.js.map": "/portfolio/static/js/main.2d7d9392.js.map"
   },
   "entrypoints": [
-    "static/css/main.50dec842.css",
-    "static/js/main.021efc31.js"
+    "static/css/main.79ecbddc.css",
+    "static/js/main.2d7d9392.js"
   ]
 }
