@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9453cd2f.css",
-    "main.js": "/portfolio/static/js/main.9595de1f.js",
+    "main.css": "/portfolio/static/css/main.50dec842.css",
+    "main.js": "/portfolio/static/js/main.021efc31.js",
     "static/media/LINKDEN PHOTO.JPEG": "/portfolio/static/media/LINKDEN PHOTO.105c5e01fb646c1e81a7.JPEG",
     "static/media/two.png": "/portfolio/static/media/two.a5dcb37b4fc221823064.png",
-    "static/media/four.png": "/portfolio/static/media/four.2006b787ed63e9d69420.png",
     "static/media/one.png": "/portfolio/static/media/one.81997ad877787ba40d16.png",
     "static/media/three.png": "/portfolio/static/media/three.c7de42c5451a86cf947b.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
@@ -12,15 +11,16 @@
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
     "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
     "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/LINKDEN PHOTO 2.jpg": "/portfolio/static/media/LINKDEN PHOTO 2.ccbf52db710bf7cf5f96.jpg",
     "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/portfolio/index.html",
-    "main.9453cd2f.css.map": "/portfolio/static/css/main.9453cd2f.css.map",
-    "main.9595de1f.js.map": "/portfolio/static/js/main.9595de1f.js.map"
+    "main.50dec842.css.map": "/portfolio/static/css/main.50dec842.css.map",
+    "main.021efc31.js.map": "/portfolio/static/js/main.021efc31.js.map"
   },
   "entrypoints": [
-    "static/css/main.9453cd2f.css",
-    "static/js/main.9595de1f.js"
+    "static/css/main.50dec842.css",
+    "static/js/main.021efc31.js"
   ]
 }
