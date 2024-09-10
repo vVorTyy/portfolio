@@ -10,7 +10,7 @@ export default function AboutMe(props) {
   return (
     <div ref={props.x} id="about-me">
       <h1>About Me<br/><span>My Introduction</span></h1>
-      <div className="content container">
+      <div className="content container block">
         <div className="box-one">
           
         </div>

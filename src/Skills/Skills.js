@@ -3,9 +3,9 @@ import "./Skills.css"
 
 export default function Skills(props) {
     return (
-    <div ref={props.x} id="skills">
+    <div ref={props.x} id="skills" >
       <h1>Skills<br/> <span>My technical level</span></h1>
-      <div className="content container">
+      <div className="content container block">
 
         <div className="card-one">
         <h2>Technical skills </h2>
@@ -27,7 +27,7 @@ export default function Skills(props) {
         <h2>Soft skills </h2>
             <div className="card-content">
             <div className="left-side">
-                    <a href=""><i className="fa-solid fa-circle-check"></i>English<span><br/>advanced</span></a>
+                    <a href=""><i className="fa-solid fa-circle-check"></i>managing<span><br/>advanced</span></a>
                     <a href=""><i className="fa-solid fa-circle-check"></i>Photoshop<span><br/>advanced</span></a>
                     <a href=""><i className="fa-solid fa-circle-check"></i>Communication<span><br/>advanced</span></a>
                 </div>

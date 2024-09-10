@@ -7,7 +7,7 @@ import { useRef } from "react"
 export default function MainHeader(props) {
   const home = useRef();
   return (
-    <div id="main-header">
+    <div id="main-header" className="block">
         <div ref={props.x} className="content container">
             <div className="box-one">
                 <a href="https://www.instagram.com/tawajjah_/" target="_blank"><i className="uil uil-instagram"></i></a>

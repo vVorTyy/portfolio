@@ -10,6 +10,7 @@
 
 
 
+
 /* header .navbar{
     width: 100%;
     display: flex;
@@ -89,6 +90,7 @@ header nav ul a {
 #main-header{
     margin: auto;
     margin-top: 200px;
+    
 }
 #main-header .content{
     display: flex;
@@ -631,3 +633,5 @@ header nav ul a {
 .scroll-down i {
     animation: arrow 1s ease-in-out infinite;
 }
+
+

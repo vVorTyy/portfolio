@@ -18,7 +18,7 @@ export default function Contact(props) {
         <h2 className='section__title'>Contact Me</h2>
         <h3 className='section__subtitle'>Get in touch</h3>
 
-        <div className='contact__container container'>
+        <div className='contact__container container block'>
             <div className='contact__content'>     
                 <h3 className='contact__title'>Talk to me</h3>  
 

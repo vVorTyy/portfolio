@@ -32,7 +32,7 @@ export default function Projects(props) {
         Projects
         <br /> <span>My Creations</span>
       </h1>
-      <div className="content container">
+      <div className="content container block">
         {allData.map((item, index) => {
           return (
             <div key={index} className="card">

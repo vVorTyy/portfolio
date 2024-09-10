@@ -18,7 +18,7 @@ export default function Services(props) {
         <h2 className="section__title">Services</h2>
         <h4 className="section__subtitle">What I offer</h4>
 
-        <div className="services__container container">
+        <div className="services__container container block">
 
         <div className="services__content">
                 <div>

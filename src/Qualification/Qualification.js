@@ -15,7 +15,7 @@ export default function Qualification(props) {
         <h2 className="section__title">Qualification</h2>
         <h3 className="section__subtitle">My personel journey</h3>
 
-        <div className="qualification__container container">
+        <div className="qualification__container container block">
                 <div className="qualification__tabs">
 
                 <div className={toggleTab === 1 
