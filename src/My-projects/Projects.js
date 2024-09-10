@@ -5,78 +5,48 @@ const allData = [
   {
     id: 1,
     imgUrl: require("../My-projects/images/three.png"),
-    title: "react",
-    description:
-      "T-Shirt Champion mens Classic T-shirt, Seasonal (Retired Colors) T-Shirt ",
-    category: "man",
+    description:"Designed and developed an interactive JavaScript appointment booking form, aligning with the company’s visual identity and enhancing user engagement",
+    category:"",
+    link: "https://vvortyy.github.io/bookingForm/",
   },
   {
-    id: 2,
-    imgUrl: require("../My-projects/images/one.png"),
-    title: "project2",
-    description:
-      "Champion mens Classic T-shirt, Seasonal (Retired Colors) T-Shirt",
-    category: "man",
-  },
-  {
-    id: 3,
+    id: 1,
     imgUrl: require("../My-projects/images/two.png"),
-    title: "project3",
-    description:
-      "Champion mens Classic T-shirt, Seasonal (Retired Colors) T-Shirt",
-    category: "man",
+    description:"Developed a fully responsive website using vanilla JavaScript, ensuring cross-device compatibility and optimizing user experience.",
+    category:"",
+    link: "https://vvortyy.github.io/project1/",
   },
   {
-    id: 4,
-    imgUrl: require("../My-projects/images/three.png"),
-    title: "project4",
-    description:
-      "Champion mens Classic T-shirt, Seasonal (Retired Colors) T-Shirt",
-    category: "woman",
-  },
-  {
-    id: 5,
-    imgUrl: require("../My-projects/images/four.png"),
-    title: "project4",
-    description:
-      "Champion mens Classic T-shirt, Seasonal (Retired Colors) T-Shirt",
-    category: "woman",
-  },
-  {
-    id: 6,
+    id: 1,
     imgUrl: require("../My-projects/images/one.png"),
-    title: "project4",
-    description:
-      "Champion mens Classic T-shirt, Seasonal (Retired Colors) T-Shirt",
-    category: "woman",
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/muiproject/",
   },
-  {
-    id: 7,
-    imgUrl: require("../My-projects/images/three.png"),
-    title: "project4",
-    description:
-      "Champion mens Classic T-shirt, Seasonal (Retired Colors) T-Shirt",
-    category: "woman",
-  },
-  
 ];
 
-export default function Projects() {
+export default function Projects(props) {
   return (
-    <div id="projects">
-      <h1>Projects<br/> <span>My creations</span></h1>
+    <div ref={props.x} id="projects">
+      <h1>
+        Projects
+        <br /> <span>My Creations</span>
+      </h1>
       <div className="content container">
-      {allData.map((item, index) => {
-        return (
+        {allData.map((item, index) => {
+          return (
             <div key={index} className="card">
-              <img src={item.imgUrl}/>
+              <img src={item.imgUrl} />
               <div className="card-content">
                 <p>{item.description}</p>
-                <span className="services__button">View More<i className="uil uil-arrow-right services__button-icon"></i></span>
+                <a className="services__button" href={item.link} target="_blank" rel="noreferrer">
+                  View More
+                  <i className="uil uil-arrow-right services__button-icon"></i>
+                </a>
               </div>
             </div>
-        );
-      })}
+          );
+        })}
       </div>
     </div>
   );

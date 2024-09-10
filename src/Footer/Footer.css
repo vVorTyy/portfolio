@@ -55,6 +55,11 @@
     text-decoration: none;
 }
 
+.footer__container {
+    padding: 2rem 0 6rem;
+    margin: auto;
+    margin-bottom: 20px;
+}
 
 
        

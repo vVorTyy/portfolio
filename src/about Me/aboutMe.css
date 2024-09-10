@@ -22,16 +22,18 @@
 #about-me .content {
     display: flex;
     justify-content: space-around;
+    gap: 1rem;
 }
 
 #about-me .box-one {
     width: 40%;
-    background: url("../main-header/LINKDEN PHOTO.JPEG") center no-repeat;
+    background: url(".//LINKDEN\ PHOTO\ 2.jpg") center no-repeat;
     background-size: cover;
     border-radius: 15px;
     filter: grayscale(100%);
     transform: scaleX(-1);
-
+    height: 250px;
+    border-radius: 10px;
 }
 
 #about-me .box-two {
@@ -77,6 +79,7 @@
 #about-me .side-two p {
     color: #777;
     margin: 40px 0;
+    font-size: 10.5px;
 }
 
 #about-me .side-three {
@@ -90,12 +93,15 @@
 
 }
 
+#about-me .side-three i{
+    padding-left: 10px;
+}
 
 
 
 @media (min-width: 600px) {
     #about-me .container {
-        width: 600px;
+        width: 100%;
         margin: auto;
     }
 
@@ -114,7 +120,6 @@
 
     #about-me .side-two p {
         margin: 20px 0;
-        font-size: 10px;
     }
 
     #about-me .box-one, #about-me .box-two {
@@ -140,13 +145,20 @@
 
     #about-me .side-two p {
         margin: 30px 0;
-        font-size: 12px;
+    }
+    #about-me .container {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        gap: 1rem;
+        display: flex;
+        flex-direction: row;
     }
 }
 
 @media (min-width: 992px) {
     #about-me .container {
-        width: 992px;
+        width: 800px;
     }
 }
 
@@ -163,38 +175,53 @@
 
 @media (max-width: 600px) {
     #about-me .container {
-        width: 350px;
+        width: 100%;
         margin: auto;
+        justify-content: center;
+        gap: 1rem;
     }
-
+    #about-me .card i, #about-me .card a {
+        font-size: 10px;
+        color: black;
+    }
+    #about-me .card {
+        padding: 5px;
+        width: 27%;
+    }
+    #about-me .box-one {
+        width: 45%;
+    }
+    #about-me .box-two {
+        width: 45%;
+    }
+    #about-me .card h2 {
+        font-size: 8px;
+    }
+    #about-me .box-two .side-one {
+        height: 80px;
+    }
+    #about-me .side-three {
+        padding: 10px 20px;
+        font-size: 11px;
+        border-radius: 6px;
+    }
+    #about-me .side-two p {
+        margin: 20px 0;
+    }
+    #about-me .box-one {
+        height: 276px;
+        border-radius: 8px;
+    }
     #about-me .content {
+        display: flex;
+        justify-content: space-around;
         flex-direction: column;
+        width: 80%;
     }
-
     #about-me .box-one {
         width: 100%;
-        background-color: red;
-        z-index: 100;
     }
-
     #about-me .box-two {
         width: 100%;
-    }
-
-    #about-me .card {
-        width: 18%;
-        padding: 15px 20px;
-    }
-
-    #about-me .side-two p {
-        text-align: center;
-        font-size: 15px;
-        margin: 25px 0;
-    }
-
-    #about-me .side-three {
-        padding: 15px 25px;
-        font-size: 12px;
-        margin: auto;
     }
 }

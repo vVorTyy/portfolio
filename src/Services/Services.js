@@ -6,7 +6,7 @@ import "./Services.css"
 
 
 
-export default function Services() {
+export default function Services(props) {
 
     
     const [togglestate, setTogglestate] = useState(0);
@@ -14,11 +14,86 @@ export default function Services() {
         setTogglestate(index);
     }
     return (
-      <section className="services section" id="services">
+      <section ref={props.x} className="services section" id="services">
         <h2 className="section__title">Services</h2>
         <h4 className="section__subtitle">What i offer</h4>
 
         <div className="services__container container">
+
+        <div className="services__content">
+                <div>
+                    <i className="fa-solid fa-code -to-square services__icon"></i>
+                    <h3 className="services__title">Web<br/> development</h3>
+                </div>
+
+                <span className="services__button" onClick={() => toggleTab(3) }>
+                    View More<i
+                className="uil uil-arrow-right
+                services__button-icon"></i></span>
+
+                <div className={togglestate === 3  ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                    <i className="fa-solid fa-xmark services__modal-close"onClick={() => toggleTab(0)}></i>
+
+
+                        <h3 className="services__modal-title">
+                        Web development
+                        </h3>
+                        <p
+                        className="services__modal-description">Programming and developing websites using the latest programming technologies</p>
+
+                        <ul className="services__modal-services">
+                        <li className="services__modal-services">
+                                <i className="uil uil-check-circle
+                                services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                Convert designs to code
+                                </p>
+                            </li>
+
+
+
+                            <li className="services__modal-services">
+                                <i className="uil uil-check-circle
+                                services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                Implement interactive elements
+                                </p>
+                            </li>
+
+
+
+                            <li className="services__modal-services">
+                                <i className="uil uil-check-circle
+                                services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                Ensure device compatibility
+                                </p>
+                            </li>
+
+
+                            <li className="services__modal-services">
+                                <i className="uil uil-check-circle
+                                services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                Enhance accessibility"
+                                </p>
+                            </li>
+
+
+                            <li className="services__modal-services">
+                                <i className="uil uil-check-circle
+                                services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                Create a dashboard for the owner.
+                                </p>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
 
 
             <div className="services__content">
@@ -44,7 +119,8 @@ export default function Services() {
                         <li className="services__modal-services">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Logo design.
+                                Design concepts
+
                                 </p>
                             </li>
 
@@ -52,7 +128,7 @@ export default function Services() {
                                 <i className="uil uil-check-circle
                                 services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Brand style guides.
+                                Develop brand identity
                                 </p>
                             </li>
 
@@ -61,7 +137,7 @@ export default function Services() {
                                 <i className="uil uil-check-circle
                                 services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                business cards & Stationery
+                                Select colors and fonts
                                 </p>
                             </li>
 
@@ -71,7 +147,7 @@ export default function Services() {
                                 <i className="uil uil-check-circle
                                 services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                 fonts & Typography.
+                                Create wireframes/prototypes
                                 </p>
                             </li>
                             
@@ -103,7 +179,7 @@ export default function Services() {
                                 <i className="uil uil-check-circle
                                 services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                User interface design.
+                                Design web layouts
                                 </p>
                             </li>
 
@@ -112,7 +188,7 @@ export default function Services() {
                                 <i className="uil uil-check-circle
                                 services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Choose the colors that suit you.
+                                Ensure device compatibility
                                 </p>
                             </li>
 
@@ -121,7 +197,7 @@ export default function Services() {
                                 <i className="uil uil-check-circle
                                 services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                        Responsive web design
+                                Develop visual elements
                                 </p>
                             </li>
 
@@ -131,7 +207,23 @@ export default function Services() {
                                 <i className="uil uil-check-circle
                                 services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Organizing components easily for the user.
+                                Select colors and fonts.
+                                </p>
+                            </li>
+
+                            <li className="services__modal-services">
+                                <i className="uil uil-check-circle
+                                services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                Create interactive prototype.
+                                </p>
+                            </li>
+
+                            <li className="services__modal-services">
+                                <i className="uil uil-check-circle
+                                services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                Study user needs and design trends
                                 </p>
                             </li>
 
@@ -142,80 +234,7 @@ export default function Services() {
                 </div>
             </div>
 
-            <div className="services__content">
-                <div>
-                    <i className="fa-solid fa-code -to-square services__icon"></i>
-                    <h3 className="services__title">Web<br/> development</h3>
-                </div>
 
-                <span className="services__button" onClick={() => toggleTab(3) }>
-                    View More<i
-                className="uil uil-arrow-right
-                services__button-icon"></i></span>
-
-                <div className={togglestate === 3  ? "services__modal active-modal" : "services__modal"}>
-                    <div className="services__modal-content">
-                    <i className="fa-solid fa-xmark services__modal-close"onClick={() => toggleTab(0)}></i>
-
-
-                        <h3 className="services__modal-title">
-                        Web development
-                        </h3>
-                        <p
-                        className="services__modal-description">Programming and developing websites using the latest programming technologies</p>
-
-                        <ul className="services__modal-services">
-                        <li className="services__modal-services">
-                                <i className="uil uil-check-circle
-                                services__modal-icon"></i>
-                                <p className="services__modal-info">
-                                Shaping the design concepts and making everything fit.
-                                </p>
-                            </li>
-
-
-
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle
-                                services__modal-icon"></i>
-                                <p className="services__modal-info">
-                                Make the website interactive.
-                                </p>
-                            </li>
-
-
-
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle
-                                services__modal-icon"></i>
-                                <p className="services__modal-info">
-                                Create a domain for the website.
-                                </p>
-                            </li>
-
-
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle
-                                services__modal-icon"></i>
-                                <p className="services__modal-info">
-                                Linking the website with databases.
-                                </p>
-                            </li>
-
-
-                            <li className="services__modal-services">
-                                <i className="uil uil-check-circle
-                                services__modal-icon"></i>
-                                <p className="services__modal-info">
-                                Create a dashboard for the owner.
-                                </p>
-                            </li>
-                            
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
         </div>
 
 

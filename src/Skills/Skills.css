@@ -26,7 +26,6 @@
     text-decoration: none;
     color: black;
     background-color: white;
-    padding: 25px 40px;
     box-shadow: 0px 0px 9px 0px #d7d7d7;
     border-radius: 10px;
 }
@@ -183,7 +182,11 @@
 /* ------------------------------------------------ */
 @media only screen and (min-width: 600px) {
     #skills .container{
-        width: 600px ;
+        width: 100% ;
+        margin: auto;
+    }
+    #skills .content .card-one, #skills .content .card-two {
+        width: 60%;
         margin: auto;
     }
 
@@ -223,8 +226,7 @@
     }
 
     #skills .content .card-two .left-side a span,
-    #skills .content .card-one .left-side a span 
-    
+    #skills .content .card-one .left-side a span
     {
         text-decoration: none;
         color: #777;
@@ -233,7 +235,6 @@
         top: 16px;
         left: 25px;
     }
-
     #skills .content .card-two .right-side a span,
     #skills .content .card-one .right-side a span {
         text-decoration: none;
@@ -243,7 +244,6 @@
         top: 16px;
         left: 35px;
     }
-
     #skills .content .card-one,
     #skills .content .card-two{
         background-color: rgb(255, 255, 255);
@@ -257,7 +257,6 @@
         border-radius: 10px;
         height: 200px;
     }
-
 }
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
@@ -268,8 +267,11 @@
 /* ------------------------------------------------ */
 @media only screen and (min-width: 768px),(max-width: 991px) {
     #skills .container{
-        width: 768px ;
+        width: 100% ;
         margin: auto;
+    }
+    #skills .content .card-one, #skills .content .card-two {
+        margin: 0;
     }
 }
 /* ------------------------------------------------ */
@@ -310,7 +312,7 @@
 /* ------------------------------------------------ */
 @media screen and (max-width: 600px) {
     #skills .container{
-        width: 350px ;
+        width: 100% ;
         margin: auto;
     }
     #skills .content .card-two h2,
@@ -389,5 +391,15 @@
         justify-content: center;
         gap: 2rem;
     }
-
+    #skills .content .card-one, #skills .content .card-two {
+        margin: auto;
+    }
+    #skills .content .card-two .card-content {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    #skills .content .card-one, #skills .content .card-two {
+        width: 60%;
+    }
 }

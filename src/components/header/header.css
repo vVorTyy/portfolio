@@ -49,11 +49,22 @@
 }
 
 
+
+
 /* active link */ 
 
 .active-link,
 .nav__link:hover {
     color: rgb(91, 91, 91);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 992px) {
+    .nav__list li a{
+        text-decoration: none;
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -116,6 +127,7 @@
     {
         display: block;
     }
+
     
 
 }

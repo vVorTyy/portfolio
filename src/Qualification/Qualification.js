@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from "react"
 
 
-export default function Qualification() {
+export default function Qualification(props) {
 
     const [togglestate, setTogglestate] = useState(1);
     const toggleTab = (index) => {
@@ -11,7 +11,7 @@ export default function Qualification() {
     }
     
   return (
-    <section className="qualification section">
+    <section ref={props.x} className="qualification section">
         <h2 className="section__title">Qualification</h2>
         <h3 className="section__subtitle">My personel journey</h3>
 
@@ -82,7 +82,7 @@ export default function Qualification() {
                                 <h3 className="qualification__title">Technical Support</h3>
                                 <span className="qualification__subtitle">Salam - Riyadh</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil"></i> 2023 - persent
+                                    <i className="uil uil"></i> 2/2023 -  2/2024
                                 </div>
                             </div>
 
@@ -105,7 +105,7 @@ export default function Qualification() {
                                 <h3 className="qualification__title">Frontend developer</h3>
                                 <span className="qualification__subtitle">AdFaz Company - Riyadh</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil"></i> 2021 - persent
+                                    <i className="uil uil"></i> 2/2024 -  4/2024
                                 </div>
                             </div>
                         </div>
@@ -114,9 +114,9 @@ export default function Qualification() {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Web developer</h3>
-                                <span className="qualification__subtitle">freelancer - Riyadh</span>
+                                <span className="qualification__subtitle">freelancer Tawajjah Team - Riyadh</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil"></i> 2024 - persent
+                                    <i className="uil uil"></i> 
                                 </div>
                             </div>
 

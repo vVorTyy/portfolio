@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Footer.css"
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <footer className='footer'>
+    <footer ref={props.x} className='footer'>
       <div className='footer__container container'>
         <h1 className='footer__title'>Abdualrhman</h1>
 

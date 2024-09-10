@@ -1,17 +1,21 @@
 import "./main-header.css"
 import "../all.min.css"
+import { useRef } from "react"
 
-export default function MainHeader() {
+
+
+export default function MainHeader(props) {
+  const home = useRef();
   return (
     <div id="main-header">
-        <div className="content container">
+        <div ref={props.x} className="content container">
             <div className="box-one">
                 <a href="https://www.instagram.com/" target="_blank"><i className="uil uil-instagram"></i></a>
                 <a href="https://www.dribble.com/" target="_blank"><i className="uil uil-dribbble"></i></a>
                 <a href="https://www.github.com/" target="_blank"><i className="uil uil-github-alt"></i></a>
             </div>
             <div className="box-two">
-                <h1>Abdualrhman Abdali <i className="hand fa-solid fa-hand"></i> </h1>
+                <h1>Abdualrhman Abdali<i className="hand fa-solid fa-hand"></i> </h1>
                 <h2 ><span>-------</span>  Frontend Developer</h2>
                 <p>I'm a frontend developer based in Riyadh, and I'm very passionate and dedicated to my work</p>
                 <a href="https://web.telegram.org" target="_blank">Say Hello <span><i className="fa-regular fa-paper-plane"></i></span></a>
