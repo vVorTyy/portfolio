@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9cfd2b84.css",
-    "main.js": "/portfolio/static/js/main.7c938a60.js",
+    "main.js": "/portfolio/static/js/main.3f586a38.js",
+    "static/media/one.png": "/portfolio/static/media/one.c2560c25777fd6cbee76.png",
     "static/media/LINKDEN PHOTO.JPEG": "/portfolio/static/media/LINKDEN PHOTO.105c5e01fb646c1e81a7.JPEG",
-    "static/media/two.png": "/portfolio/static/media/two.a5dcb37b4fc221823064.png",
-    "static/media/one.png": "/portfolio/static/media/one.81997ad877787ba40d16.png",
-    "static/media/three.png": "/portfolio/static/media/three.c7de42c5451a86cf947b.png",
+    "static/media/three.png": "/portfolio/static/media/three.34e24cef71d3bb359c48.png",
+    "static/media/seven.png": "/portfolio/static/media/seven.39145c59241edbd6d421.png",
+    "static/media/four.png": "/portfolio/static/media/four.2006b787ed63e9d69420.png",
+    "static/media/sex.png": "/portfolio/static/media/sex.89d5478c9d7f3eba51bb.png",
+    "static/media/ten.png": "/portfolio/static/media/ten.ab982a022bf8120bfc2f.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
@@ -17,10 +20,10 @@
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/portfolio/index.html",
     "main.9cfd2b84.css.map": "/portfolio/static/css/main.9cfd2b84.css.map",
-    "main.7c938a60.js.map": "/portfolio/static/js/main.7c938a60.js.map"
+    "main.3f586a38.js.map": "/portfolio/static/js/main.3f586a38.js.map"
   },
   "entrypoints": [
     "static/css/main.9cfd2b84.css",
-    "static/js/main.7c938a60.js"
+    "static/js/main.3f586a38.js"
   ]
 }
