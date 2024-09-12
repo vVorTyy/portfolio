@@ -4,24 +4,45 @@ import "./Projects.css";
 const allData = [
   {
     id: 1,
-    imgUrl: require("../My-projects/images/three.png"),
+    imgUrl: require("../My-projects/images/ten.png"),
     description:"Designed and developed an interactive JavaScript appointment booking form, aligning with the company’s visual identity and enhancing user engagement",
     category:"",
     link: "https://vvortyy.github.io/bookingForm/",
   },
   {
-    id: 1,
-    imgUrl: require("../My-projects/images/two.png"),
+    id: 2,
+    imgUrl: require("../My-projects/images/sex.png"),
     description:"Developed a fully responsive website using vanilla JavaScript, ensuring cross-device compatibility and optimizing user experience.",
     category:"",
     link: "https://vvortyy.github.io/project1/",
   },
   {
-    id: 1,
-    imgUrl: require("../My-projects/images/one.png"),
+    id: 3,
+    imgUrl: require("../My-projects/images/seven.png"),
     description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
     category:"",
     link:"https://vvortyy.github.io/muiproject/",
+  },
+  {
+    id: 4,
+    imgUrl: require("../My-projects/images/four.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/ecommrece2/",
+  },
+  {
+    id: 5,
+    imgUrl: require("../My-projects/images/three.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/Jewellery/",
+  },
+  {
+    id: 6,
+    imgUrl: require("../My-projects/images/one.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/EcommrceWebsite/",
   },
 ];
 
