@@ -42,7 +42,7 @@ const allData = [
     imgUrl: require("../My-projects/images/one.png"),
     description:"Developed agit n e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
     category:"",
-    link:"https://vvortyy.github.io/EcommrceWebsite/",
+    link:"https://github.com/vVorTyy/foodDel",
   },
   {
     id: 7,
