@@ -40,7 +40,7 @@ const allData = [
   {
     id: 6,
     imgUrl: require("../My-projects/images/one.png"),
-    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    description:"Developed agit n e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
     category:"",
     link:"https://vvortyy.github.io/EcommrceWebsite/",
   },
