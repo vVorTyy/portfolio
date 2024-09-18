@@ -44,6 +44,49 @@ const allData = [
     category:"",
     link:"https://vvortyy.github.io/EcommrceWebsite/",
   },
+  {
+    id: 7,
+    imgUrl: require("../My-projects/images/Screenshot 2024-09-18 162821.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/EcommrceWebsite/",
+  },
+  {
+    id: 8,
+    imgUrl: require("../My-projects/images/Screenshot 2024-09-18 163904.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/vorty-html/",
+  },
+  {
+    id: 9,
+    imgUrl: require("../My-projects/images/Screenshot 2024-09-18 163951.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/TawajjahAgency/",
+  },
+  {
+    id: 10,
+    imgUrl: require("../My-projects/images/Screenshot 2024-09-18 164029.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/watchesStore/",
+  },
+  {
+    id: 11,
+    imgUrl: require("../My-projects/images/Screenshot 2024-09-18 164121.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/VortyShopStore/",
+  },
+  {
+    id: 12,
+    imgUrl: require("../My-projects/images/Screenshot 2024-09-18 164159.png"),
+    description:"Developed an e-commerce site with React and Material UI, integrating Stripe and adding responsive design with dark and light modes.",
+    category:"",
+    link:"https://vvortyy.github.io/VORTYSTORE/",
+  },
+  
 ];
 
 export default function Projects(props) {
